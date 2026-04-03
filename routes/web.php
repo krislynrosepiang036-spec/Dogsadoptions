@@ -40,7 +40,7 @@ Route::post('/logout', [SigninController::class, 'logout'])->name('logout');
 // Submit adoption request
 Route::post('/dogadoption-submit', [DogAdoptionController::class, 'submit'])->name('dogadoption.submit');
 
-// My Adoptions page
+// My Adoptions pages
 Route::get('/my-adoptions', [DogAdoptionController::class, 'myAdoptions'])->name('my-adoptions');
 /*
 |--------------------------------------------------------------------------
