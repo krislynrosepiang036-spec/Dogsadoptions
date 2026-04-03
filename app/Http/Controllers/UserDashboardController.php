@@ -15,7 +15,7 @@ class UserDashboardController extends Controller
     }
 
     public function myAdoptions() {
-        return view('user-dashboard.myAdoptions');
+        return view('user-dashboard.my-adoptions');
     }
 
     public function community() {
