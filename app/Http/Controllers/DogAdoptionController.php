@@ -36,6 +36,6 @@ class DogAdoptionController extends Controller
     public function myAdoptions()
     {
         $adoptions = DogAdoption::where('user_id', Auth::id())->latest()->get();
-        return view('user-dashboard.my-adoptions', compact('adoptions'));
+        return view('user-dashboard.myAdoptions', compact('adoptions'));
     }
 }

@@ -21,6 +21,6 @@ class MyAdoptions extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('user-dashboard.my-adoptions');
+        return view('user-dashboard.MyAdoptions');
     }
 }

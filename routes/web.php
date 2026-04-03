@@ -41,7 +41,7 @@ Route::post('/logout', [SigninController::class, 'logout'])->name('logout');
 Route::post('/dogadoption-submit', [DogAdoptionController::class, 'submit'])->name('dogadoption.submit');
 
 // My Adoptions page
-Route::get('/my-adoptions', [DogAdoptionController::class, 'myAdoptions'])->name('my-adoptions');
+Route::get('/myAdoptions', [DogAdoptionController::class, 'myAdoptions'])->name('myAdoptions');
 /*
 |--------------------------------------------------------------------------
 | Dog Adoption Submission
